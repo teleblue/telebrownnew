@@ -74,11 +74,11 @@ function run(msg, matches)
 ▶با این دستور ربات شمارو به گروه مورد نظر دعوت میکند
 
 ➖➖➖➖➖➖➖
-Final Version @TeleBeyond
-Team Channel : @BeyondTeam
-Sudo Users :  ðŸ‘¤
-@SoLiD021
-@MrHalix]]
+Final Version @telebrown
+Team Channel  @TeLeBroWn_team
+Sudo Users :  👤
+@persianfa
+@RAMIRTEROR ]]
 end
 end
 return {
