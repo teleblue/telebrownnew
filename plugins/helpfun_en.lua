@@ -65,11 +65,11 @@ feedback (متن)
 !kosgo
 استفاده کنید👌😂
 ➖➖➖➖➖➖➖
-Final Version @TeleBeyond
-Team Channel : @BeyondTeam
+Final Version @telebrown
+Team Channel  @TeLeBroWn_team
 Sudo Users :  👤
-@SoLiD021
-@MrHalix]]
+@persianfa
+@RAMIRTEROR ]]
 end
 end
 return {
