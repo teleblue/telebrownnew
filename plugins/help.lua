@@ -97,7 +97,7 @@ end
  
 -- !help command
 local function telegram_help()
-  local text = "Tele Beyond Tools List:\n______________________________\n"
+  local text = "Tele Umbrella Tools List:\n______________________________\n"
   -- Plugins names
   for name in pairsByKeys(plugins) do
     if plugins[name].hidden then
@@ -108,7 +108,7 @@ local function telegram_help()
   end
   text = text..'______________________________'
   text = text..'\n'..'You can use < helps > for view all items info or can use < help (name) > for view a item info'
-  text = text..'\n'..'Sudo Users : \n@SoLiD021\n@MrHalix\nTeam Channel : @BeyondTeam'
+  text = text..'\n'..'Sudo Users : \n@persianfa\n-----\nTeam Channel : @TeleUmbrella_team'
   return text
 end
  
