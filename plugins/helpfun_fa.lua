@@ -2,7 +2,7 @@ do
 
 function run(msg, matches)
 	if msg.to.type == 'chat' then
-  return 'Tele Beyond Fun Command List'.. [[
+  return 'bot Fun Command List'.. [[
 
 💙 ليست دستورات به زبان فارسي ❤:️
 
