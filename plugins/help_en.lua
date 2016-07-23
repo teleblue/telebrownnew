@@ -2,7 +2,7 @@ do
 
 function run(msg, matches)
 	if msg.to.type == 'chat' and is_momod(msg) then
-  return 'Tele Beyond Command List'..[[
+  return 'bot Command List'..[[
 
 ❤لیست دستورات💙:
 🔴kick [آیدی،یوزر،ریپلی] 
@@ -102,11 +102,6 @@ feedback (متن)
 استفاده کنید
 با تشکر👌
 ➖➖➖➖➖➖➖
-Final Version @telebrown
-Team Channel  @TeLeBroWn_team
-Sudo Users :  👤
-@persianfa
-@RAMIRTEROR ]]
 end
 end
 return {
