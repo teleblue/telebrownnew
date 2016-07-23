@@ -3,7 +3,7 @@ do
 function run(msg, matches)
  
 	if msg.to.type == 'user' then
-  return 'Tele Bd Team Command List'..[[
+  return 'bot Team Command List'..[[
 
 ðŸ”˜دستورات پیوی ربات برای اداره کردن گروهðŸ”˜
 
@@ -74,11 +74,7 @@ function run(msg, matches)
 ▶با این دستور ربات شمارو به گروه مورد نظر دعوت میکند
 
 ➖➖➖➖➖➖➖
-Final Version @telebrown
-Team Channel  @TeLeBroWn_team
-Sudo Users :  👤
-@persianfa
-@RAMIRTEROR ]]
+ ]]
 end
 end
 return {
