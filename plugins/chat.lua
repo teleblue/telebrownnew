@@ -32,43 +32,43 @@ end
 if msg.text == "چخبر" then
 	return "سلامتی خبری نیس"
 end
-if msg.text == "mrhalix" then
-	return "با بابا امینم چکار داری؟"
+if msg.text == "teleUmbrella" then
+	return "بله؟"
 end
-if msg.text == "Mrhalix" then
-	return "با بابا امینم چکار داری؟"
+if msg.text == "TeleUmbrella" then
+	return "بله؟"
 end
-if msg.text == "سلید" then
-	return "مای فادِر بیا کارت دارن"
+if msg.text == "مهدی" then
+	return "با باباییم چیکار داری؟"
 end
-if msg.text == "سعید" then
-	return "مای فادِر بیا کارت دارن"
+if msg.text == "متی" then
+	return "با باباییم چیکار داری؟"
 end
-if msg.text == "ممشوتک" then
-	return "نگاییدم"
+if msg.text == "ربات" then
+	return "بله؟"
 end
-if msg.text == "mamshotak" then
-	return "ممه هاش تکه😂"
+if msg.text == "mahdi" then
+	return "با باباییم چیکار داری؟"
 end
-if msg.text == "Mamshotak" then
-	return "ممه هاش تکه😂"
+if msg.text == "Mahdi" then
+	return "با باباییم چیکار داری؟"
 end
-if msg.text == "نوا" then
+if msg.text == "اسپمر" then
+	return "..."
+end
+if msg.text == "اسپم" then
+	return "..."
+end
+if msg.text == "robot" then
 	return "چس اسپمر نگاییدم"
 end
-if msg.text == "نووا" then
-	return "چس اسپمر نگاییدم"
-end
-if msg.text == "nova" then
-	return "چس اسپمر نگاییدم"
-end
-if msg.text == "Nova" then
+if msg.text == "Robot" then
 	return "چس اسپمر نگاییدم"
 end
 if msg.text == "امبرلا" then
-	return "اسم اصلیش چسبرلاست"
+	return "بله؟"
 end
-if msg.text == "telebd" or msg.text == "Telebd" then
+if msg.text == "teleum" or msg.text == "Telebd" then
 	return "بلی?"
 end
 if msg.text == "bot" then
@@ -93,7 +93,7 @@ if msg.text == "بای" then
 	return "خدافظ\n"..msg.from.first_name
 end
 if msg.text == "سلام" and is_sudo(msg) then
-  return "😐✋سلام مای فادِر"
+  return "سلام بابایی"
    else
 	return "😐✋سلام\n"..msg.from.first_name
 end
@@ -106,20 +106,20 @@ return {
 		"^[Hh]i$",
 		"^[Hh]ello$",
 		"^[Xx]y$",
-		"^ممشوتک$",
-   "^نوا$",
-   "^نووا$",
+		"^ربات$",
+   "^اسپمر$",
+   "^اسپم$",
    "^بای$",
    "^سلام$",
    "^خوبی$",
-   "^سعید$",
-   "^سلید$",
+   "^متی$",
+   "^مهدی$",
    "^چه خبر$",
    "^چخبر$",
-   "^[Tt]elebd$",
-   "^[Mm]rhalix$",
-   "^[Mm]amshotak$",
-   "^[Nn]ova$",
+   "^[Tt]eleub$",
+   "^[Tt]eleUmbrella$",
+   "^[Mm]ahdi$",
+   "^[Rr]obot$",
 		"^[Bb]ot$",
 		"^امبرلا$",
 		"^[Bb]ye$",
