@@ -1,37 +1,34 @@
 do
 
 local function run(msg, matches)
-  if matches[1]:lower() == 'telebeyond' or 'version' or 'ver' or 'git' then --change this with anything you want
+  if matches[1]:lower() == 'TeleUmbrella' or 'version' or 'ver' or 'git' then --change this with anything you want
     send_document(get_receiver(msg), "./axs/telebeyond.gif", ok_cb, false) --put here sticker location(if you want)
       return [[ 
   
     
-Tele Beyond Final Version
-An Administrator The PowerFull Bot Based On TeleSeed And Bilingual Written In Lua
-    
-Sudo Users :
+TeleUmbrella Final Version
 
-Developer&Founder : @SoLiD021
-Developer&Manager : @MrHalix
-Developer&Manager : @idivanmanheb
+    
+طراح و صاحب امتیاز :
+@persianfa
+sudo :
+@persianfa
 
 Team Channel :
-@BeyondTeam
+@TeleUmbrella_team
      
 Special Thx To :
 
-Beyond Team
+TeleUmbrella team
 And All My Friends :D
      
-TeleBeyond (Open Source) Final Version :
-Https://Github.com/solid021/TeleBeyond
  ]]
   end
 end
 
 return {
   patterns = {
-    "^[!/#]([Tt]elebeyond)$",
+    "^[!/#]([Tt]eleUmbrella)$",
     "^([Tt]elebeyond)$",
     "^[!/#]([Vv]ersion)$",
     "^([Vv]ersion)$",
